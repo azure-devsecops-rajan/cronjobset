@@ -4,8 +4,8 @@ name: Hello Cron Job 58
 on:
   workflow_dispatch: 
   schedule:
-    - cron: '02 15 * * *'  # Runs every day at 9:00 AM UTC
-permissions: raed-all
+    - cron: '04 15 * * *'  # Runs every day at 9:00 AM UTC
+permissions: read-all
 jobs:
   say-hello:
     runs-on: ubuntu-latest
