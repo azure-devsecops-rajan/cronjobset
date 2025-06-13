@@ -1,0 +1,13 @@
+# .github/workflows/cron-hello.yml
+name: Hello Cron Job
+
+on:
+  schedule:
+    - cron: '53 14 * * *'  # Runs every day at 9:00 AM UTC
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello"
