@@ -4,7 +4,7 @@ name: Hello Cron Job 58
 on:
   workflow_dispatch: 
   schedule:
-    - cron: '58 14 * * *'  # Runs every day at 9:00 AM UTC
+    - cron: '02 15 * * *'  # Runs every day at 9:00 AM UTC
 permissions: raed-all
 jobs:
   say-hello:
